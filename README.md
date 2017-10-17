@@ -10,6 +10,10 @@ to LaTeX2e", version "5.06, June 20, 2016" by Tobias Oetiker.
 # โครงสร้างไฟล์
 
 - orig/ : ต้นฉบับหนังสือภาษาอังกฤษ
-- lshort-5.0.6/ : source code ของหนังสือที่ copy มาจาก release v5.0.6 บน
-  [github ของ คุณ Tobias Oetike](https://github.com/oetiker/lshort)
-
+- orig/lshort-5.0.6/ : source code ของต้นฉบับหนังสือภาษาอังกฤษที่ copy มาจาก
+  release v5.0.6 บน [github ของ คุณ Tobias Oetike](https://github.com/oetiker/lshort)
+- orig/lshort-5.0.6.pdf : ต้นฉบับหนังสือภาษาอังกฤษในฟอร์แมต pdf ที่ดาวน์โหลดมาจาก
+  [โฮมเพจของผู้เขียน](https://tobi.oetiker.ch/lshort/) เมื่อวันที่ 17 ตุลาคม ค.ศ.
+  2017 และได้ทำการ rename ไฟล์จาก lshort.pdf เป็น lshort-5.0.6.pdf
+  เพื่อประโยชน์ในการอ้างอิงเวอร์ชั่นของหนังสือในอนาคต
+- src/ : งานแปลหนังสือเล่มนี้ของเรา
