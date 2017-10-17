@@ -17,3 +17,9 @@ to LaTeX2e", version "5.06, June 20, 2016" by Tobias Oetiker.
   2017 และได้ทำการ rename ไฟล์จาก lshort.pdf เป็น lshort-5.0.6.pdf
   เพื่อประโยชน์ในการอ้างอิงเวอร์ชั่นของหนังสือในอนาคต
 - src/ : งานแปลหนังสือเล่มนี้ของเรา
+
+# ลิขสิทธิ์
+
+ต้นฉบับหนังสือภาษาอังกฤษใช้ license แบบ [GNU General Public License v2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+ในขณะที่ งานแปลหนังสือเป็นภาษาไทยเล่มนี้ใช้ license แบบ [GNU General Public
+License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
