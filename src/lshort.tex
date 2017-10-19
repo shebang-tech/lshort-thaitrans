@@ -1,22 +1,4 @@
 \documentclass[a4paper]{book}
-% [begin] required settings to use Thai language from
-% http://thaitug.daytag.org/wordpress/?p=1947
-  \usepackage{fontspec}
-  \usepackage{polyglossia}
-  \usepackage[Latin,Thai]{ucharclasses}
-  \defaultfontfeatures{Mapping=tex-text}
-  \setdefaultlanguage{thai}
-  \setotherlanguage{english}
-  %\newfontfamily{\thaifont}[Scale=MatchUppercase,Mapping=tex-text]{Norasi:script=thai}
-  \newfontfamily{\thaifont}[Scale=MatchUppercase,Mapping=tex-tex,ItalicFont={TlwgTypewriter-Oblique},BoldFont={TlwgTypewriter-Bold},BoldItalicFont={TlwgTypewriter-BoldOblique}]{TlwgTypewriter:script=thai}
-  %\newfontfamily{\thaifont}[Scale=MatchUppercase,Mapping=tex-text]{Purisa:script=thai}
-  \setTransitionTo{Thai}{\thaifont}
-  \setTransitionFrom{Thai}{\normalfont}
-  \XeTeXlinebreaklocale “th_TH”
-  \XeTeXlinebreakskip = 0pt plus 1pt
-  \linespread{1.5}
-% [end] required settings to use Thai language from ...
-
 \input{preamble}
 \input{title}
 \input{lshort-base}
