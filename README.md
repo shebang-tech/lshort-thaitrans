@@ -18,6 +18,16 @@ to LaTeX2e", version "5.06, June 20, 2016" by Tobias Oetiker.
   เพื่อประโยชน์ในการอ้างอิงเวอร์ชั่นของหนังสือในอนาคต
 - src/ : งานแปลหนังสือเล่มนี้ของเรา
 
+# วิธีสร้างหนังสือแปลในฟอร์แมตแบบ pdf
+
+หากท่านใช้ Debian ให้ติดตั้งแพกเกจดังนี้:
+
+- xelatex
+- fonts-thai-tlwg
+
+แล้วท่านสามารถสร้างไฟล์ pdf ได้ด้วยการใช้คำสั่ง `xelatex lshort.tex` จำนวน 3 ครั้ง
+ก็จะได้ไฟล์ lshort.pdf ออกมา
+
 # ลิขสิทธิ์
 
 ต้นฉบับหนังสือภาษาอังกฤษใช้ license แบบ [GNU General Public License v2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
